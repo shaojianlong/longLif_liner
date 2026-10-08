@@ -1,0 +1,31 @@
+﻿# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local input data (review before publishing)
+data/raw/C2C.xlsx
+
+# Downloaded datasets; retain the placeholder directory
+data/datasets/*
+!data/datasets/.gitkeep
+
+# Generated experiment artifacts; retain the placeholder directory
+results/*
+!results/.gitkeep
+
+# Model checkpoints and large generated figures
+*.pth
+*.pt
+*.tif
+*.tiff
+*.zip

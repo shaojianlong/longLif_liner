@@ -1,0 +1,10 @@
+﻿numpy
+pandas
+matplotlib
+scipy
+requests
+tqdm
+torch
+torchvision
+scikit-learn
+openpyxl
